@@ -2,6 +2,7 @@
 
 import type React from "react"
 import { ButtonRipple } from "@/components/button-ripple"
+import { Linkedin, Github } from "lucide-react"
 
 export function Hero() {
   const handleContactScroll = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -37,7 +38,7 @@ export function Hero() {
   return (
     <section className="relative w-full h-[calc(100vh-80px)] flex items-center px-6 overflow-hidden">
       <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover">
-        <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/80645-572367655_medium-dZdRN3eFM7LXstAtVNirFMA3RgUTQ9.mp4" type="video/mp4" />
+        <source src="/images/80645-572367655-medium.mp4" type="video/mp4" />
       </video>
 
       {/* Dark overlay for text readability */}
@@ -56,20 +57,22 @@ export function Hero() {
             <span className="text-sm font-semibold">SAY HELLO</span>
             <div className="flex gap-4">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/hengqi-tiong-164153339"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-medium hover:text-[#247DA6] transition-colors"
+                className="text-white hover:text-[#247DA6] transition-colors"
+                aria-label="LinkedIn"
               >
-                in
+                <Linkedin size={20} />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/TiongHengQi"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-medium hover:text-[#247DA6] transition-colors"
+                className="text-white hover:text-[#247DA6] transition-colors"
+                aria-label="GitHub"
               >
-                gh
+                <Github size={20} />
               </a>
             </div>
           </div>

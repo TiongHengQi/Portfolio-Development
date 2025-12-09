@@ -6,6 +6,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { useParams } from "next/navigation"
 import { projectsData } from "@/lib/utils"
+import { ExternalLink } from "lucide-react"
 
 export default function ProjectDetail() {
   const params = useParams()
@@ -70,6 +71,16 @@ export default function ProjectDetail() {
               <p className="text-lg font-semibold">{project.year}</p>
             </div>
           </div>
+
+          {project.link && (
+            <div className="mb-12">
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <ButtonRipple className="inline-flex items-center gap-2">
+                  View Project <ExternalLink size={18} />
+                </ButtonRipple>
+              </a>
+            </div>
+          )}
 
           <div className="mb-12">
             <h2 className="text-2xl font-bold mb-4">WHAT</h2>

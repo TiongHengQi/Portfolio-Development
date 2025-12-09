@@ -62,9 +62,13 @@ export default function About() {
             </p>
 
             <div className="flex gap-4">
-              <ButtonRipple href="/resume.pdf" target="_blank">
-                Resume
-              </ButtonRipple>
+              <a
+                href="https://drive.google.com/file/d/1dxcH2D1zn2MPXOYUjGTk_HFaiJ-tHh1T/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ButtonRipple>Resume</ButtonRipple>
+              </a>
               <ButtonRipple href="/certs.pdf" target="_blank">
                 Certs
               </ButtonRipple>

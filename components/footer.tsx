@@ -12,7 +12,7 @@ export function Footer() {
             <FileText className="w-8 h-8 mx-auto mb-4" />
             <h3 className="text-xl font-bold mb-2">Resume</h3>
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1dxcH2D1zn2MPXOYUjGTk_HFaiJ-tHh1T/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm hover:underline transition-all duration-300 inline-block"

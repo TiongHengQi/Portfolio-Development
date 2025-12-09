@@ -11,6 +11,7 @@ export const projectsData = {
     mainImage: "/images/sustainable-fashion-app.png",
     role: "Solo Product Designer and Developer",
     year: "2025",
+    link: "https://www.figma.com/proto/3KXHZ3CWdTA0SLbnMqtwsU/Sustainable-App?node-id=2069-3&p=f&t=ZrAY8PsHs5sq964e-1&scaling=scale-down&content-scaling=fixed&page-id=2069%3A2&starting-point-node-id=2069%3A3",
     description:
       "SUSClothing is a high-fidelity (hi-fi) wireframe prototype of a sustainable fashion discovery app that designed and developed to address a common challenge in the fashion industry—confusing eco-labels, unclear sustainability claims, and time-consuming research for eco-conscious consumers.",
     what: "As a hi-fi wireframe, the app demonstrates interactive navigation, a cart system, and a favourites page, showcasing how a near fully-developed version could curate verified, eco-friendly clothing from responsible brands. While it is not a fully functional e-commerce platform, it effectively communicates the user journey through visual and interactive prototypes.",
@@ -32,6 +33,7 @@ export const projectsData = {
     mainImage: "/images/portfolio-website.png",
     role: "UI/UX Designer and Developer",
     year: "2024",
+    link: "",
     description:
       "A personal portfolio website showcasing my work as a UI/UX and webapp developer. The site demonstrates minimalism and functionality to create impactful digital experiences. Built with modern web technologies and designed with a focus on clean aesthetics and user experience.",
     what: "This portfolio serves as both a design showcase and a functional web application. It features a clean, dark-themed interface with geometric network patterns as the hero background, smooth scrolling navigation, and an organized project showcase. The design emphasizes minimalism while maintaining visual interest through subtle animations and thoughtful typography.",

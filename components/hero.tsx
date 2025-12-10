@@ -38,7 +38,7 @@ export function Hero() {
   return (
     <section className="relative w-full h-[calc(100vh-80px)] flex items-center px-6 overflow-hidden">
       <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover">
-        <source src="/images/80645-572367655-medium.mp4" type="video/mp4" />
+        <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Hero%20Bakground-0M3D8ihGqcmEskGHPYcXTAevAOLdSD.mp4" type="video/mp4" />
       </video>
 
       {/* Dark overlay for text readability */}

@@ -87,6 +87,10 @@ export function Hero() {
             <a href="#contact" onClick={handleContactScroll}>
               <ButtonRipple className="inline-block">Contact Me</ButtonRipple>
             </a>
+            <a href="/about">
+              <ButtonRipple className="inline-block">About Me</ButtonRipple>
+            </a>
+
           </div>
         </div>
       </div>

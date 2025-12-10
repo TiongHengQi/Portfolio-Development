@@ -57,7 +57,7 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 text-xl font-bold">
           <Image src="/images/logo.png" alt="Logo" width={40} height={40} className="rounded" />
-          <span>HENGQI</span>
+          <span style={{ fontFamily: "Georgia, serif" }}>HENGQI</span>
         </Link>
         <div className="flex gap-8 text-sm font-medium">
           <Link href="/about" className="hover:text-[#247DA6] transition-colors">

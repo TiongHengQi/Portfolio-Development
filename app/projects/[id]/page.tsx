@@ -69,42 +69,29 @@ export default function ProjectDetail() {
     }
   }
 
-  const getLinePosition = () => {
-    const sections = ["image", "details", "demo"]
-    const index = sections.indexOf(activeSection)
-    return index * 44 // 44px spacing between items
-  }
-
   return (
     <div className="min-h-screen bg-black text-white">
       <Navigation />
 
       <nav className="fixed right-8 top-1/2 -translate-y-1/2 z-40 hidden lg:block">
-        <div className="relative">
-          <div className="absolute -left-6 top-0 w-0.5 h-[110px] bg-gray-700" />
-          <div
-            className="absolute -left-6 w-0.5 h-[20px] bg-white transition-all duration-500 ease-in-out"
-            style={{ transform: `translateY(${getLinePosition()}px)` }}
-          />
-          <ul className="space-y-4 text-right">
-            {[
-              { id: "image", label: "Image" },
-              { id: "details", label: "Details" },
-              { id: "demo", label: "Demo" },
-            ].map((item) => (
-              <li key={item.id}>
-                <button
-                  onClick={() => scrollToSection(item.id)}
-                  className={`text-sm font-medium transition-all duration-300 ${
-                    activeSection === item.id ? "text-white scale-110" : "text-gray-500 hover:text-gray-300"
-                  }`}
-                >
-                  {item.label}
-                </button>
-              </li>
-            ))}
-          </ul>
-        </div>
+        <ul className="space-y-4 text-right">
+          {[
+            { id: "image", label: "Image" },
+            { id: "details", label: "Details" },
+            { id: "demo", label: "Demo" },
+          ].map((item) => (
+            <li key={item.id}>
+              <button
+                onClick={() => scrollToSection(item.id)}
+                className={`text-sm font-medium transition-all duration-300 ${
+                  activeSection === item.id ? "text-white scale-110" : "text-gray-500 hover:text-gray-300"
+                }`}
+              >
+                {item.label}
+              </button>
+            </li>
+          ))}
+        </ul>
       </nav>
 
       <section className="pt-32 px-6 pb-20">

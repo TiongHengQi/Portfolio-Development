@@ -133,6 +133,8 @@
   /* added smooth scroll behavior for all scroll interactions */
   html {
     scroll-behavior: smooth;
+    /* Force scrollbar to always show to prevent layout shift */
+    overflow-y: scroll;
   }
 }
 

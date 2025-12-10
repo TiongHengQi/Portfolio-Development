@@ -8,9 +8,13 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Tiong Heng Qi - UI/UX & Web Developer",
+  title: "Tiong Heng Qi's Portfolio",
   description: "Portfolio of Tiong Heng Qi, a UI/UX and Web App Developer based in Singapore",
   generator: "v0.app",
+  icons: {
+    icon: "/images/logo.png",
+    apple: "/apple-icon.png",
+  },
 }
 
 export default function RootLayout({

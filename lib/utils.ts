@@ -32,7 +32,7 @@ export const projectsData = {
     name: "Portfolio Website",
     mainImage: "/images/portfolio-website.png",
     role: "UI/UX Designer and Developer",
-    year: "2024",
+    year: "2025",
     link: "",
     description:
       "A personal portfolio website showcasing my work as a UI/UX and webapp developer. The site demonstrates minimalism and functionality to create impactful digital experiences. Built with modern web technologies and designed with a focus on clean aesthetics and user experience.",
@@ -40,21 +40,44 @@ export const projectsData = {
     focus: [
       "Creating a clean and intuitive portfolio interface that showcases projects effectively",
       "Implementing smooth interactions and animations for a polished user experience",
-      "Designing a responsive layout that works seamlessly across all devices",
     ],
     tags: ["UI/UX", "WEB DESIGN", "DEVELOPMENT", "NEXT.JS", "TAILWIND CSS"],
     features: [
       "Dark-themed portfolio with geometric network background",
-      "Responsive design optimized for desktop and mobile devices",
       "Smooth scroll navigation and page transitions",
-      "Project showcase with detailed case studies",
       "Interactive project cards with hover animations",
       "Contact integration for easy communication",
+    ],
+  },
+  "3": {
+    name: "Travel List App",
+    mainImage: "/images/travel-list-app.png",
+    role: "UI/UX Designer and Developer",
+    year: "2025",
+    link: "",
+    status: "in-development",
+    description:
+      "The Travel List App is a simple and intuitive web application that helps users plan and organize their travel items. It allows users to create, edit, and manage packing lists for different trips, with a focus on ease of use and dynamic updates. The app updates lists in real time without page reloads, making trip planning seamless.",
+    what: "A user-friendly web application designed to simplify travel preparation by providing an organized way to track packing items. The app features dynamic interactions and real-time updates, allowing travelers to efficiently manage multiple trip categories and monitor their packing progress with visual feedback.",
+    focus: [
+      "Developed a user-friendly interface for creating and managing travel lists",
+      "Implemented dynamic interactions for a smooth user experience",
+    ],
+    tags: ["DEVELOPMENT", "JAVASCRIPT", "CSS", "WEB APP", "UI/UX DESIGN"],
+    features: [
+      "Add, edit, and delete travel items for multiple trips",
+      "Toggle items as packed or unpacked",
+      "Sort items by category",
+      "Minimalist and clean interface for easy navigation",
+      "Real-time list updates without refreshing the page",
     ],
   },
 }
 
 export const projectsByCategory = {
   Design: [{ id: 1, name: "SUSclothing", image: "/images/sustainable-fashion-app.png" }],
-  Development: [{ id: 2, name: "Portfolio Website", image: "/images/portfolio-website.png" }],
+  Development: [
+    { id: 2, name: "Portfolio Website", image: "/images/portfolio-website.png" },
+    { id: 3, name: "Travel List App", image: "/images/travel-list-app.png" },
+  ],
 }

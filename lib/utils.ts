@@ -54,7 +54,7 @@ export const projectsData = {
     mainImage: "/images/travel-list-app.png",
     role: "UI/UX Designer and Developer",
     year: "2025",
-    link: "",
+    link: "https://travel-list-app-tau-three.vercel.app/",
     status: "in-development",
     description:
       "The Travel List App is a simple and intuitive web application that helps users plan and organize their travel items. It allows users to create, edit, and manage packing lists for different trips, with a focus on ease of use and dynamic updates. The app updates lists in real time without page reloads, making trip planning seamless.",

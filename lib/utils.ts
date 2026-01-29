@@ -5,10 +5,27 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
-export const projectsData = {
+export const projectsData: Record<string, {
+  name: string
+  mainImage: string
+  images?: string[]
+  role: string
+  year: string
+  link: string
+  status?: string
+  description: string
+  what: string
+  focus: string[]
+  tags: string[]
+  features: string[]
+}> = {
   "1": {
     name: "SUSclothing",
     mainImage: "/images/sustainable-fashion-app.png",
+    images: [
+      "/images/sustainable-fashion-app.png",
+      // Add more images here for SUSclothing
+    ],
     role: "Solo Product Designer and Developer",
     year: "2025",
     link: "https://www.figma.com/proto/3KXHZ3CWdTA0SLbnMqtwsU/Sustainable-App?node-id=2069-3&p=f&t=ZrAY8PsHs5sq964e-1&scaling=scale-down&content-scaling=fixed&page-id=2069%3A2&starting-point-node-id=2069%3A3",
@@ -31,6 +48,10 @@ export const projectsData = {
   "2": {
     name: "Portfolio Website",
     mainImage: "/images/portfolio-website.png",
+    images: [
+      "/images/portfolio-website.png",
+      // Add more images here for Portfolio Website
+    ],
     role: "UI/UX Designer and Developer",
     year: "2025",
     link: "",
@@ -52,6 +73,10 @@ export const projectsData = {
   "3": {
     name: "Travel List App",
     mainImage: "/images/travel-list-app.png",
+    images: [
+      "/images/travel-list-app.png",
+      // Add more images here for Travel List App
+    ],
     role: "UI/UX Designer and Developer",
     year: "2025",
     link: "https://travel-list-app-tau-three.vercel.app/",

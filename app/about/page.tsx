@@ -37,7 +37,7 @@ export default function About() {
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-[#247DA6] text-lg">🎂</span>
-                  <span>18 Years Old</span>
+                  <span>19 Years Old</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-[#247DA6] text-lg">🎓</span>

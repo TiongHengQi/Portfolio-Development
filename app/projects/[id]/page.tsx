@@ -2,8 +2,8 @@
 
 import { Navigation } from "@/components/navigation"
 import { ButtonRipple } from "@/components/button-ripple"
+import { ImageCarousel } from "@/components/image-carousel"
 import Link from "next/link"
-import Image from "next/image"
 import { useParams } from "next/navigation"
 import { projectsData } from "@/lib/utils"
 import { ExternalLink } from "lucide-react"
@@ -107,13 +107,11 @@ export default function ProjectDetail() {
             )}
           </div>
 
-          <div id="image" className="relative rounded-lg overflow-hidden mb-12">
-            <Image
-              src={project.mainImage || "/placeholder.svg"}
+          <div id="image" className="mb-12">
+            <ImageCarousel
+              images={project.images || [project.mainImage]}
               alt={project.name}
-              width={1200}
-              height={400}
-              className="w-full h-auto"
+              autoPlayInterval={4000}
             />
           </div>
 

@@ -100,8 +100,8 @@ export default function ProjectDetail() {
             <h1 className="text-5xl font-bold">{project.name}</h1>
             {project.link && (
               <a href={project.link} target="_blank" rel="noopener noreferrer">
-                <ButtonRipple className="inline-flex items-center gap-2">
-                  View Project <ExternalLink size={18} />
+                <ButtonRipple className="inline-flex items-center gap-3 px-8 py-4 text-lg font-bold">
+                  View Project <ExternalLink size={22} />
                 </ButtonRipple>
               </a>
             )}

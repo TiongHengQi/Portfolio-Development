@@ -96,7 +96,16 @@ export default function ProjectDetail() {
 
       <section className="pt-32 px-6 pb-20">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-5xl font-bold mb-8">{project.name}</h1>
+          <div className="flex flex-wrap items-center gap-6 mb-8">
+            <h1 className="text-5xl font-bold">{project.name}</h1>
+            {project.link && (
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <ButtonRipple className="inline-flex items-center gap-2">
+                  View Project <ExternalLink size={18} />
+                </ButtonRipple>
+              </a>
+            )}
+          </div>
 
           <div id="image" className="relative rounded-lg overflow-hidden mb-12">
             <Image
@@ -148,16 +157,6 @@ export default function ProjectDetail() {
                 <p className="text-lg font-semibold">{project.year}</p>
               </div>
             </div>
-
-            {project.link && (
-              <div>
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  <ButtonRipple className="inline-flex items-center gap-2">
-                    View Project <ExternalLink size={18} />
-                  </ButtonRipple>
-                </a>
-              </div>
-            )}
 
             <div>
               <h2 className="text-2xl font-bold mb-4">WHAT</h2>

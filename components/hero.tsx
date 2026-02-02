@@ -80,8 +80,8 @@ export function Hero() {
 
         <div className="flex flex-col justify-center">
           <p className="text-xl leading-8 mb-8 max-w-md">
-            Hello there, I am a student currently studying Digital Design & Development at Republic Polytechnic. I
-            believe in minimalism and functionality to create impactful digital experiences
+            I design digital experiences that don't shout — they work.
+            I'm an aspiring UI/UX and Web App Developer studying Digital Design & Development at Republic Polytechnic, driven by minimalism, functionality, and thoughtful design.
           </p>
           <div>
             <a href="#contact" onClick={handleContactScroll}>

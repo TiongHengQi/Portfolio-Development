@@ -79,8 +79,10 @@ export function Hero() {
         </div>
 
         <div className="flex flex-col justify-center">
-          <p className="text-xl leading-8 mb-8 max-w-md">
+          <p className="text-xl leading-8 mb-4 max-w-md">
             I design digital experiences that don't shout — they work.
+          </p>
+          <p className="text-xl leading-8 mb-8 max-w-md">
             I'm an aspiring UI/UX and Web App Developer studying Digital Design & Development at Republic Polytechnic, driven by minimalism, functionality, and thoughtful design.
           </p>
           <div>
